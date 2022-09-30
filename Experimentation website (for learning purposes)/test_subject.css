@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'rama-gothic-heavy';
+    src: url('RamaGothicM-Heavy.ttf');
+}
+
+@font-face {
+    font-family: 'rama-gothic-regular';
+    src: url('RamaGothicM-SemiBold.ttf');
+}
+
+body {
+    margin:0;
+    background-image: url("bg.jpg");
+    color:black;
+}
+
+h1 {
+    font-family:"rama-gothic-heavy";
+    text-align:center;
+    font-size:50px;
+    margin-bottom: -10px;
+}
+
+p {
+    font-family:"rama-gothic-regular";
+    font-size:25px;
+    text-align:center;
+    margin-left: 350px;
+    margin-right:350px;
+}
+
+a {
+    text-align:center;
+}
+
+/* BASIC TEMPLATE OF THE NAVIGATION BAR. */
+.navigation{
+    font-family:"rama-gothic-regular";
+    font-size:25px;
+    overflow:hidden;
+    background-color:#333;
+}
+
+/* BELOW DEFINES THE FORMAT OF THE ATTRIBUTES OF THE NAVIGATION CLASS (WHEN CURSOR IS AND ISN'T HOVERING OVER THE ATTRIBUTES. */
+.navigation a {
+    color:whitesmoke;
+    padding:14px 16px;
+    float:left;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.navigation a.active {
+    background-color:#04AA6D;
+    color:whitesmoke;
+}
+
+#button1 {
+    text-align:center;
+}
+
+/*  BUTTONS SHOULD BE SPECIFIED BY TWO CLASSES: BUTTON (TO GIVE THE ATTRIBUTE THE FEATURES OF A BUTTON) AND A CLASS WITH THE NAME OF YOUR CHOICE (TO CUSTOMISE THE BUTTON FURTHER) */
+.button {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.click-me {
+    color:white;
+    background-color:black;
+  }
+
+.click-me:hover {
+    background-color:white;
+    color:black;
+}
